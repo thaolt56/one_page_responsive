@@ -1,0 +1,120 @@
+/*Ipad ngang (1024 x 768)*/
+
+@media screen and (max-width: 1024px) {}
+
+
+/*Ipad doc (768 x 1024)*/
+
+@media screen and (min-width: 601px) {
+    #nav-mobile {
+        display: none;
+    }
+    .icon-bar {
+        display: none;
+    }
+}
+
+
+/*tablet nho (600 x 800)*/
+
+@media screen and (max-width: 600px) {
+    #header #nav,
+    .search {
+        display: none;
+    }
+    /* nav-mobile */
+    #nav-mobile {
+        width: 100%;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        z-index: 1;
+        /* padding: 0px 24px; */
+        background: #140c0c;
+        text-transform: capitalize;
+        display: none;
+    }
+    #subnav-mobile {
+        background: #2b2a2a;
+        width: 100%;
+        list-style: none;
+        padding: 12px 38px;
+        display: none;
+    }
+    #subnav-mobile>li>a {
+        text-decoration: none;
+        display: block;
+        padding: 3px 0px;
+        color: #ccc;
+        opacity: 0.8;
+        margin: 5px 0px;
+    }
+    #subnav-mobile>li>a:hover {
+        opacity: 1;
+    }
+    #nav-mobile>li>a {
+        color: #ccc;
+        padding: 8px 24px;
+        text-decoration: none;
+    }
+    #nav-mobile li {
+        position: relative;
+    }
+    #subnav-mobile {
+        position: absolute;
+        top: 30px;
+    }
+    .icon-1.open {
+        transform: rotate(180deg);
+        transition: all 0.6s ease-in-out;
+    }
+    .icon-1 {
+        line-height: 0px;
+        position: absolute;
+        right: 5px;
+        top: 0px;
+        padding: 12px;
+        font-size: 15px;
+        color: #ccc;
+    }
+    #nav-mobile>li>a:hover {
+        color: #fff;
+    }
+    #nav-mobile>li {
+        margin: 8px 0px;
+    }
+    /* //fix bug */
+    .item-member {
+        width: 100%;
+        text-align: center;
+    }
+    .item-member img {
+        border-radius: 4px;
+    }
+    #tour-places {
+        margin: 0px 16px;
+    }
+    .places-item {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .contact-detail .info {
+        width: 100%;
+        padding: 6px;
+    }
+    .col,
+    .col-2 {
+        width: 100%;
+    }
+}
+
+
+/*Iphone (480 x 640)*/
+
+@media screen and (max-width: 320px) {}
+
+
+/*smart phone nho */
+
+@media screen and (max-width: 240px) {}
